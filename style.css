@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #FFFFFF;
+    --background-button: #c1c1c120;
+    --text-color-footer: #FFFFFF95;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 400px;
+    margin: 0 auto;
+    background: url(./assets/images/bg_desktop_version.jpg) no-repeat center/cover;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    margin: 70px 0;
+}
+
+#menu a {
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    color: var(--text-color-footer);
+}
+
+footer a {
+    color: var(--text-color);
+    font-weight: bold;
+}
