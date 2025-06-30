@@ -54,6 +54,13 @@ body {
 
     box-shadow: 0 1px 4px 0 #ffffff40;
     backdrop-filter: blur(8px);
+
+    transition: background-color .5s ease-in-out;
+}
+
+#menu a:hover {
+    background-color: #c1c1c140;
+    transform: scale(1.01);
 }
 
 #menu a img {
@@ -68,4 +75,10 @@ footer {
 footer a {
     color: var(--text-color);
     font-weight: bold;
+    transition: color .5s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(1, 165, 165);
 }
