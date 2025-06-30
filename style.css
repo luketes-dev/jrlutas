@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -40,7 +41,7 @@ body {
     width: 400px;
     color: var(--text-color);
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
 
     padding: 17px 0px 17px 15px;
     border: 1px solid var(--text-color);
