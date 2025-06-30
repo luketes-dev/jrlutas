@@ -16,9 +16,9 @@ a {
 }
 
 body {
-    max-width: 400px;
+    height: 100vh;
     margin: 0 auto;
-    background: url(./assets/images/bg_desktop_version.jpg) no-repeat center/cover;
+    background: linear-gradient(#A10000,#000000) no-repeat center/cover;
 }
 
 #container {
