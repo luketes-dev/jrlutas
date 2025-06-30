@@ -39,6 +39,10 @@ body {
 #menu a {
     color: var(--text-color);
     font-weight: bold;
+
+    padding: 17px 120px 17px 70px;
+    border: 1px solid var(--text-color);
+    background-color: var(--background-button);
 }
 
 footer {
