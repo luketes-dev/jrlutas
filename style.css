@@ -18,7 +18,7 @@ a {
 body {
     height: 100vh;
     margin: 0 auto;
-    background: linear-gradient(#A10000,#000000);
+    background: url(./assets/images/bg.png) no-repeat center/cover;
 }
 
 #container {
@@ -102,11 +102,5 @@ footer a:hover {
 
     #menu a img {
         width: 24px;
-    }
-}
-
-@media (max-width: 430px) {
-    body {
-        background: url(./assets/images/bg_mobile_version.png) no-repeat center/cover;
     }
 }
